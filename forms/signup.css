@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin: 5px 0 22px 0;
+    outline: none;
+
+    display: inline-block;
+
+    background-color: #f1f1f1f1;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #f6eaeaf1;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6d;
+    color: #f1f1f1f1;
+    opacity: 0.9;
+
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    margin: 8px 0;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+/*Float cancel and signup buttons and add an equal widgth*/
+.cancelbtn,
+.signupbtn {
+    float: left;
+
+    width: 50%;
+}
+/* Add padding to container elements*/
+.container {
+    padding: 16px;
+}
+/*Top modal(background)*/
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+hr{
+    border: 1px solid #f1f1f1;
+}
+.close{
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+.close:hover,
+.close.focus{
+    color: #f44336;
+    cursor: pointer;
+}
+/*Clear floats */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*changes styles for the cancle screen  */
+@media screen and (max-width:300px){
+    .cancelbtn,.signupbtn{
+        width: 100%;
+    }
+}

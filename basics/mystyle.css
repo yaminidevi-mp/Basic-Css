@@ -1,0 +1,17 @@
+*{
+    background-color: lightsalmon;
+    font-family: Courier;
+    text-align: center;
+}
+.myclass{
+    font-size: medium;
+    color:darkred;
+    text-align: center;
+    text-decoration: dotted;
+}
+.myclass{
+    font-size: small;
+    color:black;
+    text-decoration: solid;
+    
+}
